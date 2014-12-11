@@ -20,7 +20,7 @@ class StreamsCkeditorIntegrationExtensionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $target = assets_path('ckeditor');
+        $target = app('streams.asset.path') . '/ckeditor';
 
         if (config('app.debug') and !is_dir($target)) {
 
