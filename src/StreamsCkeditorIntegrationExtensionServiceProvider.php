@@ -1,4 +1,4 @@
-<?php namespace Anomaly\Streams\Addon\Extension\StreamsCkeditorIntegration;
+<?php namespace Anomaly\StreamsCkeditorIntegrationExtension;
 
 use Illuminate\Support\ServiceProvider;
 
