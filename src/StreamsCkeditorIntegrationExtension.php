@@ -13,5 +13,12 @@ use Anomaly\Streams\Platform\Addon\Extension\Extension;
 class StreamsCkeditorIntegrationExtension extends Extension
 {
 
+    /**
+     * Extension identification.
+     *
+     * @var string
+     */
+    protected $identifier = 'streams::integration.ckeditor';
+
 }
  
