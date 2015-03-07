@@ -24,7 +24,7 @@ class StreamsCkeditorIntegrationExtensionServiceProvider extends ServiceProvider
 
         if (config('app.debug') and !is_dir($target)) {
 
-            app('files')->copyDirectory(__DIR__ . '/../resources/ckeditor', $target);
+            app('files')->copyDirectory(__DIR__ . '/../resources/js/ckeditor', $target);
         }
     }
 }
