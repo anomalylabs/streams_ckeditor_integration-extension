@@ -1,6 +1,6 @@
 <?php namespace Anomaly\StreamsCkeditorIntegrationExtension;
 
-use Illuminate\Support\ServiceProvider;
+use Anomaly\Streams\Platform\Addon\AddonServiceProvider;
 
 /**
  * Class StreamsCkeditorIntegrationExtensionServiceProvider
@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
  * @author        Ryan Thompson <ryan@anomaly.is>
  * @package       Anomaly\Streams\Addon\Extension\StreamsCkeditorIntegration
  */
-class StreamsCkeditorIntegrationExtensionServiceProvider extends ServiceProvider
+class StreamsCkeditorIntegrationExtensionServiceProvider extends AddonServiceProvider
 {
 
     /**
